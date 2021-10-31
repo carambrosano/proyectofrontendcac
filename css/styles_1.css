@@ -1,0 +1,249 @@
+/*ESTILOS COMUNES A TODAS LOS HTML VINCULADOS*/
+
+/* CONTENEDORES */
+
+* {
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+
+#contenedor_header {
+    background-image: linear-gradient(to right, white, #0abab5);
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: xx-large;
+    font-family: 'Megrim', cursive;
+    
+    
+}
+
+.apellido {
+    text-decoration: overline solid #10141F 1.5px;    
+}
+
+
+#contenedor_nav {
+    background-image: linear-gradient(to right, white, #0abab5);
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+   
+}
+
+/* LINKS */
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #000660;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    transform: scale(1.1);
+    color: #000660;
+
+}
+
+/* NAVIGATION MENU */
+
+.items_nav {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    color: #000660;
+    
+     
+    
+}
+
+/* FOOTER */
+#footer {
+    background-color: #0abab5; 
+    margin-top: auto;
+    height: auto;
+}
+
+.CA {
+    padding-top: 2.5%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Megrim', cursive;
+    text-decoration: overline;
+    font-size: xx-large;
+}
+
+.copyright {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    margin-top: 20px;
+    text-decoration: overline solid 1px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+}
+
+.fab.fa-linkedin-in {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    
+}
+
+.fab.fa-instagram {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+/*TRANSFORMATION SOBRE ICONOS*/
+
+.fab.fa-linkedin-in:hover {
+    transform: scale(1.5);
+    color: black;
+}
+
+.fab.fa-instagram:hover {
+    transform: scale(1.5);
+    color: black;
+}
+
+.linkedin:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.linkedin:visited {
+    color: black;
+}
+
+.instagram:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.instagram:visited {
+    color: black;
+}
+
+/*HASTA ACÁ ESTILO COMÚN A TODO HTML*/
+
+/*GRID HOME - IMAGES ON HOME*/
+
+.flexContainerPics {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 1rem;
+    overflow: hidden;    
+}
+
+.containerimg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 25%;
+    height: auto;
+}
+
+.edu img{
+    width: 90%;
+    height: 90%;
+    transition: transform .3s;
+}
+
+.edu:hover img{
+    transform: scale(1.1);
+}
+
+.exp img {
+    width: 85%;
+    height: 90%;
+    transition: transform .3s;
+}
+
+.exp:hover img{
+    transform: scale(1.1);
+}
+
+.kmb1 img{
+    width: 90%;
+    height: 90%;
+    transition: transform .3s;
+}
+
+.kmb1:hover img{
+    transform: scale(1.1);
+}
+
+.kmb2 img{
+    width: 85%;
+    height: 90%;
+    transition: transform .3s;
+}
+
+.kmb2:hover img{
+    transform: scale(1.1);
+}
+
+.kmb3 img{
+    width: 90%;
+    height: 90%;
+    transition: transform .3s;
+}
+
+.kmb3:hover img{
+    transform: scale(1.1);
+}
+
+.kmb4 img{
+    width: 90%;
+    height: 90%;
+    transition: transform .3s;
+}
+
+.kmb4:hover img{
+    transform: scale(1.1);
+}
+
+blockquote p {
+    background-color: #E9E8EB;
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+
+.quote {
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    height: auto;
+
+}
+
+figcaption {
+    font-size: small;
+    margin-top: 10px;
+    width: 95%;
+    height: auto;
+    
+}

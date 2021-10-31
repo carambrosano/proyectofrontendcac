@@ -1,0 +1,179 @@
+/*ESTILOS COMUNES A TODAS LOS HTML VINCULADOS*/
+
+* {
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+#contenedor_header {
+    background-image: linear-gradient(to right, white, #0abab5);
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: xx-large;
+    font-family: 'Megrim', cursive;   
+    
+}
+
+.apellido {
+    text-decoration: overline solid #10141F 1.5px; 
+    font-family: 'Megrim', cursive;
+    
+}
+
+.nombre {
+    font-family: 'Megrim', cursive;
+    
+}
+
+
+#contenedor_nav {
+    background-image: linear-gradient(to right, white, #0abab5);
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+   
+}
+
+/* LINKS */
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #000660;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    transform: scale(1.1);
+    color: #000660;
+
+}
+
+/* NAVIGATION MENU */
+
+.items_nav {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    color: #000660;
+    
+     
+    
+}
+
+/* FOOTER */
+#footer {
+    background-color: #0abab5; 
+    margin-top: 300px;
+    height: 200px;
+}
+
+.CA {
+    padding-top: 2.5%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Megrim', cursive;
+    text-decoration: overline;
+    font-size: xx-large;
+}
+
+.copyright {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    margin-top: 20px;
+    text-decoration: overline solid 1px;
+
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+}
+
+.fab.fa-linkedin-in {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    
+}
+
+.fab.fa-instagram {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+/*TRANSFORMATION SOBRE ICONOS*/
+
+.fab.fa-linkedin-in:hover {
+    transform: scale(1.5);
+    color: black;
+}
+
+.fab.fa-instagram:hover {
+    transform: scale(1.5);
+    color: black;
+}
+
+.linkedin:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.linkedin:visited {
+    color: black;
+}
+
+.instagram:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.instagram:visited {
+    color: black;
+}
+
+/*HASTA ACÁ ESTILO COMÚN A TODO HTML*/
+
+.titlepage  {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    height: auto;
+    margin: 3% 0 0 3%;
+    box-shadow: 5px 8px 5px grey;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+#container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 600px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 3s;
+}
+
